@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords"  content="CUADROS, ANOTADORES, ACCESORIOS, PINTURA, PINCEL">
+	<meta name="description" content="Formulario de contacto,facebook e instagram.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto | Mars</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex-conteiner fondo container-fluid">
+
+	<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" id="nav1">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logoMars.png"  width="45px" height="45px" class="d-inline-block align-text-middle">
+          
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>  
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cuadros.html">Cuadros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="anotadores.html">Anotadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accPEscritorio.html">Accesorios para Escritorio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobreMars.html">Sobre Mars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+
+
+	<div class="separate ">
+		<h2 class="display-4">CONTACTO</h2><br><br>
+		<form role="form" action="contacto.html" method="POST">
+			<div class="form-group">
+				<label for="nombre">Nombre:</label>
+				<input type="text" class="form-control" name="nombre"><br>
+			</div>
+			<div>
+				<label for="apellido">Apellido:</label>
+				<input type="text" class="form-control" name="apellido"><br>
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" name="email"><br>
+			</div>
+			<div class="form-group">
+				<label for="comentario">Comentarios</label>
+				<textarea class="form-control" id="comentario" rows="3"></textarea>
+			</div>
+			<div class="form-check">
+				 <input type="checkbox" class="form-check-input" id="acepta" name="acepta" value="1">
+				 <label class="form-check-label" for="acepta"> Desea recibir Newsletter</label><br><br>
+			</div>
+				<input type="submit" class="btn btn-primary" value="Enviar Formulario">
+				<input type="reset" class="btn btn-secondary" value="Limpiar Formulario">
+		</form>
+	</div>
+
+	<div class="separate">
+		<br><br>
+		<h2 class="display-4">REDES</h2>	
+		<br><br>
+		<a href="https://www.instagram.com/mars.cuadros/?hl=es-la"><img class="imgRedes img-fluid" src="img/logoInsta.png" alt="Instagram" class="img-rounded">	</a>
+		<a href="https://www.facebook.com/mars.cuadros"><img class="imgRedes img-fluid" src="img/logoFace.jfif" alt="Facebook" class="img-rounded"></a>
+		<br><br>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7931.334274955589!2d-66.30876982299924!3d-33.3001109731	0982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43ea022ad1a09%3A0x8db67f6235092850!2zMzPCsDE3JzU2LjAiUyA2NsKwMTgnMzEuOSJX!5e0!3m2!1ses-419!2sar!4v1617818890290!5m2!1ses-419!2sar" style="border:0;" allowfullscreen loading="lazy"></iframe>
+		</div>	
+	</div>
+
+	<a href="index.html">Volver</a>
+
+	<footer>
+      <p>©Copyright 2050 by MARS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
